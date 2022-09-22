@@ -5,6 +5,6 @@ public class Task8 {
         System.out.println("Всего работников в компании - " + (totalHours / onePersonHours) + " человек");
         var totalPersons = totalHours / onePersonHours;
         totalPersons += 94;
-        System.out.println("Если в компании работает " + totalPersons + " человека, то всего " + (totalPersons * onePersonHours) + " часов работы может быть поделено между сотрудниками");
+        System.out.println("Если в компании работает " + totalPersons + " человек, то всего " + (totalPersons * onePersonHours) + " часов работы может быть поделено между сотрудниками");
     }
 }
